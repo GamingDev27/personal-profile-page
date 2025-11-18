@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="mx-8 font-medium">
    hello
   </div>
   

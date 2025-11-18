@@ -1,13 +1,9 @@
 <script setup>
+import HomeLayout from '@/layouts/HomeLayout.vue'
 </script>
 
 <template>
-  <div class="mx-8 font-medium">
-   hello
-  </div>
-  
+  <HomeLayout> hello </HomeLayout>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

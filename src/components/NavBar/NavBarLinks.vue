@@ -8,14 +8,14 @@ const props = defineProps({
 </script>
 
 <template>
-  <div
+  <li
     :class="[
-      'font-primary text-neutral-light hover:text-accent tracking-wide cursor-pointer w-auto',
+      'group font-bodyMedium hover:text-primary-500 text-sm lg:text-base cursor-pointer',
       customClass,
     ]"
   >
-    <slot></slot>
-  </div>
+    <span class="invisible group-hover:visible">&lt; </span><slot></slot><span class="invisible group-hover:visible"> &gt;</span>
+  </li>
 </template>
 
 <style></style>

@@ -9,6 +9,11 @@
         <div>Experience</div>
         <div>Projects</div>
         <div>Contact</div>
+        <div
+          class="group font-bodyMedium hover:text-primary-500 text-sm lg:text-base hover:underline underline-offset-4 cursor-pointer"
+        >
+          <span class="invisible group-hover:visible">&lt;</span>ABOUT US<span>&gt;</span>
+        </div>
       </div>
     </div>
   </nav>

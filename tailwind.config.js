@@ -1,31 +1,31 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  
   theme: {
     extend: {
       colors: {
         primary: {
-            '50': '#eef9ff',
-            '100': '#daf0ff',
-            '200': '#bde6ff',
-            '300': '#8fd7ff',
-            '400': '#5abeff',
-            '500': '#34a0fd',
-            '600': '#1d82f3',
-            '700': '#166bdf',
-            '800': '#1751aa', //main
-            '900': '#1a4b8e',
-            '950': '#152e56',
+            '50': '#f8fafc',
+            '100': '#f1f5f9',
+            '200': '#e2e8f0',
+            '300': '#cbd5e1',
+            '400': '#94a3b8',
+            '500': '#64748b',
+            '600': '#475569',
+            '700': '#334155',
+            '800': '#1e293b', //main
+            '900': '#0f172a',
+            '950': '#020617',
         },
-
-        backgroundMain: '#F6F0F0',
-        accent: '#FEE002',
-        accentDark: '#E1C600',
-        primaryDark: "#0F3157",
+        backgroundMain: '#0f172a',
+        accent: '#FF6185',
+        accentDark: '#FF6185',
+        primaryDark: "#FF6185",
         neutral: {
-          light: "#f5f5f5",
-          dark: "#212121",
-          offwhite: "#f1f1f1"
+          light: "#f9fafb",
+          dark: "#09090b",
+          offwhite: "#e4e4e7"
         }
       },
       fontFamily: {

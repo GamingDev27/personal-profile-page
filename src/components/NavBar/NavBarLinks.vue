@@ -10,11 +10,11 @@ const props = defineProps({
 <template>
   <li
     :class="[
-      'group font-bodyMedium hover:text-primary-500 text-sm lg:text-base cursor-pointer',
+      'group font-bodyMedium text-sm lg:text-base cursor-pointer text-accent',
       customClass,
     ]"
   >
-    <span class="invisible group-hover:visible">&lt; </span><slot></slot><span class="invisible group-hover:visible"> &gt;</span>
+  <span class="invisible group-hover:visible text-accent">&lt; </span><slot></slot><span class="invisible group-hover:visible text-accent"> &gt;</span>
   </li>
 </template>
 

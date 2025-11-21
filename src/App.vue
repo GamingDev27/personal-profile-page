@@ -4,7 +4,7 @@ import HomeLayout from '@/layouts/HomeLayout.vue'
 
 <template>
   <HomeLayout> 
-    <main class="dark pt-20 bg-background/95 h-screen">
+    <main class="dark pt-20 bg-background/95 h-full">
       <section class="max-w-6xl mx-auto px-6 py-16">
         <div class="flex flex-col md:flex-row items-center gap-10">
           <!-- Profile Image -->
@@ -44,6 +44,46 @@ import HomeLayout from '@/layouts/HomeLayout.vue'
           <span class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700">Laravel</span>
           <span class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700">MySQL</span>
         </div>
+      </section>
+
+      <!-- ===== Projects Section ===== -->
+      <section class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-semibold mb-6">Projects</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project Card -->
+          <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+            <div class="h-40 bg-gray-200 rounded-lg mb-4"></div>
+            <h3 class="text-xl font-semibold">Project One</h3>
+            <p class="text-gray-600 mt-2">A brief description of the project goes here.</p>
+            <a href="#" class="text-blue-600 mt-3 inline-block hover:underline">View project →</a>
+          </div>
+
+          <!-- Project Card -->
+          <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+            <div class="h-40 bg-gray-200 rounded-lg mb-4"></div>
+            <h3 class="text-xl font-semibold">Project Two</h3>
+            <p class="text-gray-600 mt-2">A brief description of the project goes here.</p>
+            <a href="#" class="text-blue-600 mt-3 inline-block hover:underline">View project →</a>
+          </div>
+
+          <!-- Project Card -->
+          <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+            <div class="h-40 bg-gray-200 rounded-lg mb-4"></div>
+            <h3 class="text-xl font-semibold">Project Three</h3>
+            <p class="text-gray-600 mt-2">A brief description of the project goes here.</p>
+            <a href="#" class="text-blue-600 mt-3 inline-block hover:underline">View project →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Call to Action ===== -->
+      <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-3xl font-semibold mb-4">Interested in working together?</h2>
+        <p class="text-gray-600 mb-6">Let’s create something awesome.</p>
+        <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Contact Me
+        </a>
       </section>
     </main> 
   </HomeLayout>

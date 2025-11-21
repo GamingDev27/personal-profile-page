@@ -18,7 +18,7 @@ import HomeLayout from '@/layouts/HomeLayout.vue'
 
           <!-- Text Content -->
           <div>
-            <h1 class="text-4xl font-bold text-gray-900">John Doe</h1>
+            <h1 class="text-4xl font-bold text-primary">John Doe</h1>
             <p class="text-lg text-gray-600 mt-3">
               Full-Stack Developer passionate about building intuitive, scalable, and elegant digital experiences.
             </p>

@@ -16,4 +16,4 @@
 
 <style>
 
-</style>vue
+</style>
